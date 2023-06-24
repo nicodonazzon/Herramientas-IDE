@@ -1,7 +1,10 @@
 # Herramientas-IDE-TypeScript
+
 En esta sección se hablará un poco sobre herramientas IDE que se pueden utilizar para el desarrollo de TypeScript.
 
-El primero y recomendado para el curso, VS CODE (https://code.visualstudio.com/)
+Además de instalar Ts de manera global mediente el modulo npm de NodeJs con el comando: npm install -g typescript, es recomendable seguir estas instrucciones  en el IDE que escojan para optimizar nuestro trabajo como desarrolladores.
+
+El primero IDE que voy a mencionar y el recomendado para el curso, VS CODE (https://code.visualstudio.com/)
 
 Para utilizar este IDE, una vez instalado se pueden seguir las siguientes instrucciones:
 
@@ -20,10 +23,7 @@ Otros IDES a tener en cuenta son:
 
   Con este IDE se puede implementar TypeScrypt en un proyecto mediante Nuget Package Manager o instalando una extensión de Ts para VS 2022.
 
-* Atom
-
-  Además de instalar Ts de manera global mediente el modulo npm de NodeJs con el comando: npm install -g typescript,
-  es recomendable seguir estas instrucciones en Atom para mejorar el desarrollo:
+* Atom (Desactualizado, no recomendado, https://github.com/atom/atom/releases/tag/v1.60.0)
 
    1. Abre Atom en tu computadora.
 
@@ -35,23 +35,22 @@ Otros IDES a tener en cuenta son:
 
    5. Debería aparecer el paquete "atom-typescript" en los resultados de búsqueda. Haz clic en "Install" para instalarlo.
 
-* WebStorm
+* WebStorm (de Pago, https://www.jetbrains.com/es-es/webstorm/download/#section=windows)
 
-Para instalar TypeScript en WebStorm, puedes seguir estos pasos:
+  1. Ve al menú "File" y selecciona "Settings" o "Preferences" (dependiendo de tu sistema operativo).
 
-1. Abre WebStorm en tu computadora.
+  2. En la ventana de configuración de WebStorm, busca "Languages & Frameworks" o "Idiomas y marcos de trabajo" en el panel izquierdo y haz clic 
+  en él para expandirlo.
 
-2. Ve al menú "File" y selecciona "Settings" o "Preferences" (dependiendo de tu sistema operativo).
+  3. Selecciona "TypeScript" en la lista de opciones.
 
-3. En la ventana de configuración de WebStorm, busca "Languages & Frameworks" o "Idiomas y marcos de trabajo" en el panel izquierdo y haz clic en él para expandirlo.
+  4. Si no tienes TypeScript instalado en tu sistema, WebStorm te ofrecerá la opción de instalarlo automáticamente. Haz clic en "Install" para 
+  comenzar la instalación.
 
-4. Selecciona "TypeScript" en la lista de opciones.
+  5. Si ya tienes TypeScript instalado en tu sistema, WebStorm te mostrará la ruta de la instalación actual. Puedes verificar que sea la ruta 
+  correcta o actualizarla si es necesario.
 
-5. Si no tienes TypeScript instalado en tu sistema, WebStorm te ofrecerá la opción de instalarlo automáticamente. Haz clic en "Install" para comenzar la instalación.
-
-6. Si ya tienes TypeScript instalado en tu sistema, WebStorm te mostrará la ruta de la instalación actual. Puedes verificar que sea la ruta correcta o actualizarla si es necesario.
-
-7. Haz clic en "OK" o "Aplicar" para guardar los cambios y cerrar la ventana de configuración.
+  6. Haz clic en "OK" o "Aplicar" para guardar los cambios y cerrar la ventana de configuración.
 
 <a name="seccion1"></a>
 
