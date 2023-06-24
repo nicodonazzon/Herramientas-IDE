@@ -5,7 +5,7 @@ El primero y recomendado para el curso, VS CODE (https://code.visualstudio.com/)
 
 Para utilizar este IDE, una vez instalado se pueden seguir las siguientes instrucciones:
 
-1. Abre la carpeta de tu proyecto en Visual Studio Code mediante la opción "File" > "Open Folder" o haciendo click derecho en la parte y abrir con Visual Studio Code. 
+1. Abre la carpeta de tu proyecto en Visual Studio Code mediante la opción "File" > "Open Folder" o haciendo click derecho en la carpeta y "abrir con Visual Studio Code". 
 
 2. Si aún no tienes instalada la extensión de TypeScript, ve a la pestaña de extensiones (icono de cubo en la barra lateral izquierda) y busca "TypeScript". Instala la extensión proporcionada por Microsoft.
 ![image](https://github.com/nicodonazzon/Herramientas-IDE/assets/60930400/19722b40-9a84-4817-a118-e8282373d14d)
