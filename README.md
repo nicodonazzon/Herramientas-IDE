@@ -82,3 +82,31 @@ Ejemplo genérico del tsconfig:
 Estos son solo algunos ejemplos de las opciones que puedes configurar en el archivo `tsconfig.json`. Pueden consultar todas opciones en https://www.typescriptlang.org/es/tsconfig
 
 Para compilar, se ejecuta el comando `tsc` en la raíz del proyecto para compilar tu código TypeScript utilizando la configuración especificada en el archivo `tsconfig.json`.
+
+DEPURACIÓN DE CÓDIGO EN TYPESCRIPT
+
+En este apartado voy a dejar una pequeña guía de como configurar VS CODE para depurar el código de Ts en caso de que VS CODE no lo configure automaticamente. 
+
+1. Antes que nada se debe agregar una linea de código al archivo tsconfig.json que diga `"sourceMap" : true`. Esto generará unos archivos que le van a decir a VS CODE como mapear el código de Js a Ts.
+
+![image](https://github.com/nicodonazzon/Herramientas-IDE/assets/60930400/2d643bc8-9bea-4226-9080-67f2b642e17f)
+
+2. Al compilar con el comando tsc, se puede apreciar que ahora en la carpeta donde se crean los .js compilados (generalmente en la carpeta dist si usan un tsconfig generico), se puede ver otro archivo con la extensión .map. No es importante analizar lo que hay adentro es solo para que VS CODE pueda mapear el código para despues depurarlo.
+
+3. Despues hay que ir a la opción Run & Debug de VS Code y hacer click en la opción "crear launch.json file" e indicar la opción de node js.
+
+![image](https://github.com/nicodonazzon/Herramientas-IDE/assets/60930400/172d9c77-5fb0-4c9e-a436-3b4da606d32a)
+
+   Les creará un archivo con un contenido similar a este:
+
+![image](https://github.com/nicodonazzon/Herramientas-IDE/assets/60930400/1a7babd6-0dd4-4b0c-a7b1-a1b963cbc953)
+
+5. Ahora hay que agregar una línea de código `"preLaunchTask" : "tsc: build - tsconfig.json"` al archivo launch.json para que quede así:
+
+![image](https://github.com/nicodonazzon/Herramientas-IDE/assets/60930400/4885a846-dace-4309-9bec-d65342a62fad)
+
+6. Perfecto ahora solo queda marcar un breakpoint y empezar a depurar con el bóton launch.
+
+Eso es todo, nos vemos en el siguente tema del temario. ¡Saludos!
+
+
